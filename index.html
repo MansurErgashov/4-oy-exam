@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShelter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+
+    <div class="light" id="light"></div>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__box">
+                
+                <div class="header__box-box">
+                    
+                    <a class="header__box-box-link" href="#">
+
+                        <img class="header__box-box-link-img" src="img/logo.svg" alt="logo" width="226" height="44">
+                    </a>
+    
+                    <label class="header__box-box-label">
+    
+                        <input type="text" class="header__box-box-label-input" placeholder="Search books">
+    
+                        <img class="header__box-box-label-img" src="img/lupa.png" alt="lupa" width="19" height="18">
+                    </label>
+                </div>
+
+                <button class="header__box-label-btn">
+
+                    <img class="header__box-label-btn-img" src="img/quyosh.svg" alt="quyosh" width="23" height="23">
+                </button>
+            </div>
+
+            <div class="header__box2">
+
+                <label class="header__box2-label">
+
+                    <input class="header__box2-label-input" type="text" placeholder="Search books">
+
+                    <img class="header__box2-label-img" src="img/lupa.png" alt="lupa">
+                </label>
+            </div>
+        </div>
+    </header>
+<!-- Main -->
+    <main class="main">
+
+        <section class="results">
+            
+            <div class="results__container container">
+
+                <p class="results__count">Result: <span class="result__span"></span></p>
+
+                <button class="results__btn">
+
+                    <img class="results__btn-img" src="img/calendar 1.png" alt="calendar 1" width="24" height="24">
+
+                    <p class="results__btn-text">Order by newest</p>
+                </button>
+            </div>
+        </section>
+
+
+
+        <!-- Main Body -->
+        <section class="book-cards">
+
+           <div class="book-cards__container container">
+
+            <div class="book-cards__bookmarks bookmarks">
+
+                <h3 class="bookmarks__heading">Bookmarks</h3>
+
+                <p class="bookmarks__desc">If you don’t like to read, you haven’t found the right book</p>
+
+                <ul class="bookmarks__list">
+                    
+                    <!-- <li class="bookmarks__item  bookmarks__item--dark">
+
+                        <div class="bookmarks__item-box">
+
+                            <h4 class="bookmarks__item-box-title bookmarks__item-box-title--dark">Python</h4>
+
+                            <p class="bookmarks__item-box-body bookmarks__item-box-body--dark">David M. Beazley</p>
+                        </div>
+
+                        <div class="bookmarks__item-btns">
+
+                            <button class="bookmarks__item-btns-readbtn">
+                                <img class="bookmarks__item-btns-readbtn-img" src="img/book-open 1.png" alt="book-open 1" width="24" height="24">
+                            </button>
+
+                            <button class="bookmarks__item-btns-deletebtn">
+                                <img class="bookmarks__item-btns-deletebtn-img" src="img/delete 1.png" alt="delete 1"  width="24" height="24">
+                            </button>
+                        </div>
+                    </li> -->
+
+                </ul>
+            </div>
+
+            <div class="book-cards__cards">
+
+                <ul class="cards__list">
+
+                    <!-- <li class="cards__item">
+
+                        <img class="cards__item-img" src="img/Rectangle 356.png" alt="Rectangle 356" width="201" height="202">
+
+                        <h3 class="cards__item-title">Python</h3>
+
+                        <p class="cards__item-author">David M. Beazley</p>
+
+                        <p class="cards__item-year">2009</p>
+
+                        <div class="cards__item-btns">
+
+                            <button class="cards__item-btns-bookmarkbtn" type="submit">Bookmark</button>
+
+                            <button class="cards__item-btns-infobtn" type="submit">More Info</button>
+                        </div>
+
+                        <a class="cards__item-readbtn" style="text-decoration: none; display: block; text-align: center;" target="blank" href="">Read</a>
+                    </li> -->
+                </ul>
+            </div>
+           </div>
+        </section>
+    </main>
+
+
+    <section class="info">
+        
+        <div class="info__container info__none">
+            <div class="info__box">
+
+                <h2 class="info__box-heading" style="width: 350px;">python</h2>
+
+                <button class="info__box-closeBtn">
+                    <img src="img/close.png" alt="close" class="info__box-closeBtn-img" width="15" height="15">
+                </button>
+            </div>
+
+            <img src="img/Rectangle 356.png" alt="book-open" class="info__img" width="229" height="300">
+
+            <p class="info__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ea culpa! Quia modi accusamus quo quisquam cum! Officiis, accusamus expedita odio corrupti quibusdam quia officia labore sapiente libero tempore aliquid totam molestias, velit aliquam vero exercitationem deserunt qui quod repellendus ad dolores dignissimos suscipit non iste! Adipisci, hic corrupti similique autem cupiditate vero! Non rem necessitatibus ea alias perspiciatis iure, labore obcaecati magnam eligendi corrupti doloribus, sunt culpa consequatur, ipsa adipisci quidem. Tempora amet illo aliquam magni reiciendis asperiores at.</p>
+
+
+            <h3 class="info__Author style">Author :  <span class="info__Author-span info__span">span</span></h3>
+            <h3 class="info__Published style">Published :   <span class="info__Published-span info__span">span</span></h3>
+            <h3 class="info__Publishers style">Publishers: <span class="info__Publishers-span info__span">span</span></h3>
+            <h3 class="info__Categories style">Categories:  <span class="info__Categories-span info__span">span</span></h3>
+            <h3 class="info__Pages style">Pages Count:  <span class="info__Pages-span info__span" >span</span></h3>
+
+
+            <div class="wrapper_readBtn">
+                <a class="info__readBtn" href="#" target="blank" style="text-decoration: none;">read</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <template class="card__template">
+
+        <li class="cards__item">
+
+            <img class="cards__item-img" src="img/Rectangle 356.png" alt="Rectangle 356" width="201" height="202">
+
+            <h3 class="cards__item-title">Python</h3>
+
+            <p class="cards__item-author">David M. Beazley</p>
+
+            <p class="cards__item-year">2009</p>
+
+            <div class="cards__item-btns">
+
+                <button class="cards__item-btns-bookmarkbtn" type="submit">Bookmark</button>
+
+                <button class="cards__item-btns-infobtn" type="submit">More Info</button>
+            </div>
+
+            <a class="cards__item-readbtn" style="text-decoration: none; display: block; text-align: center;" target="blank" href="">Read</a>
+        </li>
+    </template>
+
+
+    <!-- bookmarks template -->
+    <template class="bookmark__temp">
+
+        <li class="bookmarks__item">
+
+            <div class="bookmarks__item-box">
+
+                <h4 class="bookmarks__item-box-title">Python</h4>
+
+                <p class="bookmarks__item-box-body">David M. Beazley</p>
+            </div>
+
+            <div class="bookmarks__item-btns">
+
+                <button class="bookmarks__item-btns-readbtn">
+                    <img class="bookmarks__item-btns-readbtn-img" src="img/book-open 1.png" alt="book-open 1" width="24" height="24">
+                </button>
+
+                <button class="bookmarks__item-btns-deletebtn">
+                    <img class="bookmarks__item-btns-deletebtn-img" src="img/delete 1.png" alt="delete 1"  width="24" height="24">
+                </button>
+            </div>
+        </li>
+    </template>
+
+
+    <template class="temp__moreInfo">
+
+        <div class="info__box">
+
+            <h2 class="info__box-heading" style="width: 350px;">python</h2>
+
+            <button class="info__box-closeBtn">
+                <img src="img/close.png" alt="close" class="info__box-closeBtn-img" width="15" height="15">
+            </button>
+        </div>
+
+        <img src="img/Rectangle 356.png" alt="book-open" class="info__img" width="229" height="300">
+
+        <p class="info__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ea culpa! Quia modi accusamus quo quisquam cum! Officiis, accusamus expedita odio corrupti quibusdam quia officia labore sapiente libero tempore aliquid totam molestias, velit aliquam vero exercitationem deserunt qui quod repellendus ad dolores dignissimos suscipit non iste! Adipisci, hic corrupti similique autem cupiditate vero! Non rem necessitatibus ea alias perspiciatis iure, labore obcaecati magnam eligendi corrupti doloribus, sunt culpa consequatur, ipsa adipisci quidem. Tempora amet illo aliquam magni reiciendis asperiores at.</p>
+
+
+        <h3 class="info__Author style">Author :  <span class="info__Author-span info__span">span</span></h3>
+        <h3 class="info__Published style">Published :   <span class="info__Published-span info__span">span</span></h3>
+        <h3 class="info__Publishers style">Publishers: <span class="info__Publishers-span info__span">span</span></h3>
+        <h3 class="info__Categories style">Categories:  <span class="info__Categories-span info__span">span</span></h3>
+        <h3 class="info__Pages style">Pages Count:  <span class="info__Pages-span info__span" >span</span></h3>
+
+
+        <div class="wrapper_readBtn">
+            <a class="info__readBtn" href="#" target="blank" style="text-decoration: none;">read</a>
+        </div>
+    </template>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <script src="js/main.js"></script>
+</body>
